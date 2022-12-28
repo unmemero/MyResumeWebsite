@@ -1,0 +1,82 @@
+html{
+    background: linear-gradient(rgb(0, 0, 20), rgb(1, 29, 50),rgb(57, 56, 56)) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: antiquewhite;
+}
+/*Header*/
+.main-header {
+    margin-left: 40%;
+    margin-right: 33%;
+}
+
+/*Nav bar*/
+nav ul{
+    list-style:none;
+    padding: 0px;
+    margin: 0px;
+    overflow:hidden;
+    background-color: #444444;
+}
+nav a{
+    float: left;
+    display: block;
+    color: white;
+    padding: 10px 15px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    border-right: 1px solid;
+    min-width: 60px;
+}
+@-webkit-keyframes glow-animation {
+    0%{text-shadow: 0px 0px 0px white;} 
+    100%{text-shadow: 3px 3px 5px rgb(251, 255, 45);}
+}
+li a:hover{
+    background-color: rgb(44, 44, 44);
+    -webkit-animation: glow-animation;
+    -webkit-animation-duration: 200ms;
+    -webkit-animation-fill-mode: forwards;
+}
+
+li a:active{
+    background-color: rgb(255, 0, 0);
+}
+
+/*Cover letter section*/
+.cover-letter{
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.cover-letter img{
+    width: 20%;
+    height: auto;
+    float: left;
+    margin-right: 2%;
+}
+.cover-letter h1 {
+    text-align: center;
+    color: rgb(227, 209, 164);
+    font-size: 36px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.cover-letter p {
+    text-align: justify;
+    color: rgb(227, 209, 164);
+}
+
+/*Main footer  -- REWORK IF POSSIBLE*/
+#footerhr{
+    margin-top: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 1%;
+}
+#main-footer{
+    text-align: center;
+    font-size: small;
+    margin-bottom: 5px;   
+}
