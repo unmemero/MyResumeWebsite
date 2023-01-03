@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background:linear-gradient(to bottom,rgb(91, 0, 0),rgb(199, 113, 0),rgb(255, 251, 0),white);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@-webkit-keyframes font-animation{
+    0%{font-size:1em;}
+    100%{font-size:75;}
+}
+
+#main-p{
+    color: rgb(255, 116, 116);
+    font-size: 75px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 10%;
+    margin-left: 19%;
+    margin-right:14%;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    -webkit-animation: font-animation 10s;
+}
