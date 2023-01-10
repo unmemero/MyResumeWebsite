@@ -37,25 +37,25 @@
         <hr>
         <br>
         <ul>
-            <li><i class="fa-solid fa-phone"></i> 915-227-0003</li>
-            <li><a href="https://www.linkedin.com/in/rafael-garcia-737931206"><i class="fa-brands fa-linkedin" target="_blank"></i> Linked In</a></li>
-            <li><a href=""><i class="fa-brands fa-square-facebook"></i> Facebook</a></li><br>
+            <li><span class="icons"><i class="fa-solid fa-phone"></i></span> 915-227-0003</li>
+            <a href="https://www.linkedin.com/in/rafael-garcia-737931206" target="_blank"><li><span class="icons"><i class="fa-brands fa-linkedin" target="_blank"></i></span> Linked In</li></a>
+            <a href="https://www.facebook.com/rafaelgarcia1999" target="_blank"><li><span class="icons"><i class="fa-brands fa-square-facebook"></i></span> Facebook</li></a><br>
             <li>
-                <i class="fa-solid fa-envelope"></i> Send me an email <br><br>
+                <span class="icons"><i class="fa-solid fa-envelope"></i></span> Send me an email <br><br>
                 <form action="Submit">
-                    <label for="senderName">Name</label><br>
+                    <label for="senderName">Name <span class="required">*</span></label><br>
                     <input type="text" name="senderName" id="sendernName" required><br>
                     <label for="companyName">Company Name</label><br>
                     <input type="text" name="senderCompanyName" id="senderCompanyName"><br>
-                    <label for="senderEmail">Email</label><br>
+                    <label for="senderEmail">Email <span class="required">*</span></label><br>
                     <input type="email"  name="senderEmail" id="senderEmail" required><br>
                     <label for="phoneNumber">Phone Number</label><br>
                     <input type="tel" name="senderPhoneNumber" id="senderPhoneNumber"><br>
-                    <label for="senderSubject">Subject</label><br>
+                    <label for="senderSubject">Subject <span class="required">*</span></label><br>
                     <input type="text" name="senderSubject" id="senderSubject" required><br>
-                    <label for="senderMessage">Message</label><br>
+                    <label for="senderMessage">Message <span class="required">*</span></label><br>
                     <textarea name="senderMessage" id="senderMessage" ></textarea><br>
-                    <button>Submit</button> Still in progress
+                    <button>Send</button> Still in progress
 
                 </form>
             </li>
@@ -64,6 +64,7 @@
 
     <hr id="footerhr">
     <footer id="main-footer">Rafael Garcia &copy 2022</footer>
+
 
     <script src="scripts/script.js" type="text/javascript"></script>
 </body>
