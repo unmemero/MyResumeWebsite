@@ -1,0 +1,23 @@
+/*Cover letter section*/
+.cover-letter{
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.cover-letter img{
+    width: 20%;
+    height: auto;
+    float: left;
+    margin-right: 2%;
+}
+.cover-letter h1 {
+    text-align: center;
+    color: rgb(227, 209, 164);
+    font-size: 36px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.cover-letter p {
+    text-align: justify;
+    color: rgb(227, 209, 164);
+}
