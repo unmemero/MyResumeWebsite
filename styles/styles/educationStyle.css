@@ -1,0 +1,36 @@
+.education{
+    display: flex;
+    flex-wrap:nowrap;
+    margin-top: 20px;
+    margin-left: 14%;
+    margin-right: 14%;
+    
+}
+
+.education img{
+    width: 800px;
+    height: 300px;
+    padding: 2%;
+    border: solid 5px wheat;
+    margin-right: 1%;
+    margin-top: 5%;
+}
+
+.educationText{
+    margin: 1%;
+    text-align: center;
+    width: 80%;
+}
+
+.education h1{
+    font-size: 2em;
+}
+
+.education th,td{
+    table-layout: auto;
+    width:30%;
+    border: solid 1px;
+    padding: 1%;
+    align-content: center;
+
+}
