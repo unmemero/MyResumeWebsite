@@ -9,6 +9,9 @@
     height: auto;
     float: left;
     margin-right: 2%;
+    padding: 2%;
+    border: solid 3px wheat;
+
 }
 .cover-letter h1 {
     text-align: center;
