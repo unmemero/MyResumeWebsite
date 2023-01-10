@@ -10,4 +10,14 @@
 .download img{
     margin-left: 13%;
     margin-right: 15%;
+    border: solid 3px wheat;
+}
+.download img:hover{
+    -webkit-animation: image-glow-animation;
+    -webkit-animation-duration: 200ms;
+    -webkit-animation-fill-mode: forwards;
+}
+@-webkit-keyframes image-glow-animation{
+    0%{box-shadow: 0px 0px 0px white;} 
+    100%{box-shadow: 5px 5px 10px yellow;box-shadow: -5px -5px 10px yellow;}
 }
