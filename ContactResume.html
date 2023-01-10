@@ -9,6 +9,8 @@
     <meta name="description" content="Resume for Rafael Garcia">
     <meta name="author" content="Rafael Garcia">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/contactStyle.css">
+    <script src="https://kit.fontawesome.com/3519b39b8c.js" crossorigin="anonymous"></script>
     <title>Contact</title>
 
 </head>
@@ -33,7 +35,31 @@
     <section class="contact">
         <h1>Contact</h1>
         <hr>
-        <!--maybe table, add fonts from font awesome-->
+        <br>
+        <ul>
+            <li><i class="fa-solid fa-phone"></i> 915-227-0003</li>
+            <li><a href="https://www.linkedin.com/in/rafael-garcia-737931206"><i class="fa-brands fa-linkedin" target="_blank"></i> Linked In</a></li>
+            <li><a href=""><i class="fa-brands fa-square-facebook"></i> Facebook</a></li><br>
+            <li>
+                <i class="fa-solid fa-envelope"></i> Send me an email <br><br>
+                <form action="Submit">
+                    <label for="senderName">Name</label><br>
+                    <input type="text" name="senderName" id="sendernName" required><br>
+                    <label for="companyName">Company Name</label><br>
+                    <input type="text" name="senderCompanyName" id="senderCompanyName"><br>
+                    <label for="senderEmail">Email</label><br>
+                    <input type="email"  name="senderEmail" id="senderEmail" required><br>
+                    <label for="phoneNumber">Phone Number</label><br>
+                    <input type="tel" name="senderPhoneNumber" id="senderPhoneNumber"><br>
+                    <label for="senderSubject">Subject</label><br>
+                    <input type="text" name="senderSubject" id="senderSubject" required><br>
+                    <label for="senderMessage">Message</label><br>
+                    <textarea name="senderMessage" id="senderMessage" ></textarea><br>
+                    <button>Submit</button> Still in progress
+
+                </form>
+            </li>
+        </ul>
     </section>
 
     <hr id="footerhr">
