@@ -62,6 +62,8 @@ submitButton.addEventListener('click', (e)=>{
         document.getElementById('contact-name').value = '';
         document.getElementById('contact-email').value = '';
         document.getElementById('contact-message').value = '';
+        window.alert('Work in progress, please use the email button for any inquiries');
+    /*
         Email.send({
             Host : "smtp.elasticemail.com",
             Username : "rgarcia.cs.business@gmail.com",
@@ -84,4 +86,5 @@ submitButton.addEventListener('click', (e)=>{
         }).then(
           message=>console.log('done')
         );
+        */
 });
