@@ -14,7 +14,7 @@ submitButton.addEventListener('click', (e) => {
             Username : "rgarcia.cs.business@gmail.com",
             Password : "A4376331F81BE5ED02F5DCB469BBDCDB8246",
             To : 'rgarcia.cs.business@gmail.com',
-            From : 'rgarcia.cs.business@gmail.com',
+            From : 'contact@rafaelgarciaresume.com',
             Subject : "Resume Page contact",
             Body : finalMessage
         }).then(
@@ -25,7 +25,7 @@ submitButton.addEventListener('click', (e) => {
             Username : "rgarcia.cs.business@gmail.com",
             Password : "A4376331F81BE5ED02F5DCB469BBDCDB8246",
             To : email,
-            From : 'rgarcia.cs.business@gmail.com',
+            From : 'contact@rafaelgarciaresume.com',
             Subject : "Confirmation of contact request",
             Body : '<h2>Thanks for your message!</h2> <br> <p>It has been logged into my email account. I will reach out as soon as possible. Please expect the response in no more than 5 business days. If I do not respond within the timeframe, please resend your email and verify all information is correct.</p> <p>Thank you.</p><p>-Rafael</p>'
         }).then(
